@@ -5,23 +5,20 @@
     font-family: Arial, Helvetica, sans-serif; 
 }
 #header {
-    background-color: lightgreen;
     text-align: center;
     padding: 20px;
+    background-color: lightgrey;
 }
 
 #sidebar {
     width: 25%;
     float: left;
-    padding: 10px;
-    background-color: lightpink;
 }
 
 #content {
     width: 75%;
     float: right;
     padding: 20px;
-    background-color: lightblue;
 }
 
 #footer {
@@ -38,4 +35,20 @@ h2 {
 img {
     float: right;
     border-radius: 20px;
+}
+
+ul {
+    list-style-type: none;
+    background-color: #f1f1f1;
+}
+
+li {
+    display: block;
+    color: #000;
+    padding: 8px 16px;
+}
+
+li:hover {
+    background-color: #555;
+    color: white;
 }
