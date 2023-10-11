@@ -6,16 +6,23 @@
 }
 #header {
     background-color: lightgreen;
+    text-align: center;
+    padding: 20px;
 }
 
 #sidebar {
+    float: left;
+    padding: 10px;
     background-color: lightpink;
 }
 
 #content {
+    padding: 10px;
     background-color: lightblue;
 }
 
 #footer {
     background-color: lightgrey;
+    text-align: center;
+    padding: 20px;
 }
