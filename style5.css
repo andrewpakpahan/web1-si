@@ -1,0 +1,15 @@
+#header {
+    background-color: lightgreen;
+}
+
+#sidebar {
+    background-color: lightpink;
+}
+
+#content {
+    background-color: lightblue;
+}
+
+#footer {
+    background-color: lightgrey
+}
