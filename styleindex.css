@@ -40,6 +40,10 @@ nav ul li:hover {
     width: 30%;
 }
 
+#main-container div img {
+    width: 100%;
+}
+
 footer {
     background-color: #dedede;
     text-align: center;
