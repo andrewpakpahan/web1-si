@@ -31,8 +31,13 @@ nav ul li:hover {
 }
 
 #main-container {
+    margin-top: 25px;
     display: flex;
     justify-content: space-around;
+}
+
+#main-container div {
+    width: 30%;
 }
 
 footer {
