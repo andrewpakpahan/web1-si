@@ -7,18 +7,36 @@
 </head>
 <body>
     <h1>Learn JS 4</h1>
-
+    <!-- Onclick event -->
     <button onclick="functionClick()">Click me!</button>
 
+    <!-- onmouseover -->
     <button onmouseover="functionHover()">Hover over me...</button>
 
+    <!-- onmouseout -->
+    <button onmouseout="functionOut()">Hover over me...</button>
+    
+    <br><br>
+     <!-- onkeydown -->
+    Name: <input type="text" id="name" onkeydown="functionKeyDown()">
+    
+    <!-- onload -->
     <script>
         function functionClick() {
             alert("Hi! You clicked the button!");
         }
 
+        function functionOut() {
+            console.log("Hi, you hover over and out of the button");
+        }
+
         function functionHover() {
             console.log("Hi, you hover over the button");
+        }
+
+        function functionKeyDown() {
+            console.log("You pressed a key");
+            document.getElementById("name").style.borderColor = "red";
         }
 
     </script>
